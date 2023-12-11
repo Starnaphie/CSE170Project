@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel="stylesheet" href="FinalProj.css">
+   <script src="FinalProj.js"></script>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Final Project</title>
+</head>
+
+<body>
+   <div class="heading">
+      <h1 class="headerName">Availability</h1>
+      <div class="container">
+         <img class="headerImage" src="https://drive.google.com/uc?export=view&id=1pjIq76U5CMwj1SJfEzCTkT4bsGKqEtnA">
+      </div>
+   </div>
+
+   <hr class="sectionLine">
+
+   <div class="map row full-width center-align">
+      <div class="col s12 l4 offset-l4">
+            <img class="mapImage" id = "0" src="https://drive.google.com/uc?export=view&id=1a5G6BvjD6tmRZVr9ibyw2T6mTeqBSA2y">
+            <button id='mapButton' onclick="toggleMap()">View Full Gym</button>
+         <!-- vs View In Sections -->
+      </div>
+   </div>
+
+   <div class="section footerHider"> 
+      <!-- machines: https://drive.google.com/file/d/1a0LdJfci7oO1ud_gauRC854zbLB0Sjbi/view?usp=sharing
+         weight: https://drive.google.com/file/d/1P8dnit4NKlwICbG0gp44vd5Fg1E_opes/view?usp=sharing
+         racks: https://drive.google.com/file/d/1SMijpNI-IxV-zOwY1lNlyQrmbM45jTe6/view?usp=sharing
+         more: https://drive.google.com/file/d/1-_0UMP7pilIyPtTOreA5olGQbWWByPCX/view?usp=sharing
+         stretches: https://drive.google.com/file/d/1wJTaou3wQzFfAjRdJ_X6v8zoqR1LN-wY/view?usp=sharing
+         cardio: https://drive.google.com/file/d/1M5K0UIfQJBVoPYtBNcw54DaDmGymIeUH/view?usp=sharing
+      -->
+      <span class="sectionHeader">
+         <img class="icon" src="https://drive.google.com/uc?export=view&id=1P8dnit4NKlwICbG0gp44vd5Fg1E_opes">
+         <text class="subtitle">Weights</text>
+      </span>
+      <hr class="subSectionLine">
+      <div class="equipment">
+         Dumbbells<br>
+         Barbells<br>
+         Kettlebells<br>
+         Weight Plates<br>
+         Medicine Balls 
+      </div>
+
+      <span class="sectionHeader">
+         <img class="icon" src="https://drive.google.com/uc?export=view&id=1SMijpNI-IxV-zOwY1lNlyQrmbM45jTe6">
+         <text class="subtitle">Racks</text>
+      </span>
+      <hr class="subSectionLine">
+      <div class="equipment">
+         Power Rack<br>
+         Squat Rack<br>
+         Smith Machine<br>
+         Weight Plate Rack<br>
+         Dumbbell Rack
+      </div>
+
+      <span class="sectionHeader">
+         <img class="icon" src="https://drive.google.com/uc?export=view&id=1a0LdJfci7oO1ud_gauRC854zbLB0Sjbi">
+         <text class="subtitle">Machines</text>
+      </span>
+      <hr class="subSectionLine">
+      <div class="equipment">
+         Leg Press Machine<br>
+         Lat Pulldown Machine<br>
+         Cable Crossover Machine<br>
+         Leg Extension Machine<br>
+         Chest Press Machine
+      </div>
+
+      <span class="sectionHeader">
+         <img class="icon" src="https://drive.google.com/uc?export=view&id=1M5K0UIfQJBVoPYtBNcw54DaDmGymIeUH">
+         <text class="subtitle">Cardio Machines</text>
+      </span>
+      <hr class="subSectionLine">
+      <div class="equipment">
+         Treadmill<br>
+         Elliptical Trainer<br>
+         Stationary Bike<br>
+         Rowing Machine<br>
+         Stair Climber
+      </div>
+
+      <span class="sectionHeader">
+         <img class="icon" src="https://drive.google.com/uc?export=view&id=1wJTaou3wQzFfAjRdJ_X6v8zoqR1LN-wY">
+         <text class="subtitle">Stretch Equipment</text>
+      </span>
+      <hr class="subSectionLine">
+      <div class="equipment">
+         Foam Roller<br>
+         Yoga Mat<br>
+         Stretching Strap<br>
+         Balance Ball<br>
+         Pilates Ring
+      </div>
+
+      <span class="sectionHeader">
+         <img class="icon" src="https://drive.google.com/uc?export=view&id=1-_0UMP7pilIyPtTOreA5olGQbWWByPCX">
+         <text class="subtitle">More</text>
+      </span>
+      <hr class="subSectionLine">
+      <div class="equipment">
+         Resistance Bands<br>
+         Loop Bands<br>
+         Figure 8 Bands<br>
+         Therapy Bands<br>
+         Super Bands
+      </div>
+
+   </div>
+
+   <div class="footer">
+      <ul class="nav">
+         <li><a href="#"><img class="navIcon" alt="routine"
+                  src="https://drive.google.com/uc?export=view&id=1ijoLHg6RhRJW7Fsg9bhjcZXsYbp3KpC7"></a></li>
+         <li><a href="#"><img class="navIcon" alt="stats"
+                  src="https://drive.google.com/uc?export=view&id=1B3vQhFjIAYucR_zGpyYoAVS8hqtNC_QY"></a></li>
+         <li><a href="#"><img class="navIcon" alt="home"
+                  src="https://drive.google.com/uc?export=view&id=1WbsskFebLbIfwsjy1ATKSQORZmKFNiRP"></a></li>
+         <li><a href="#"><img class="navIcon" alt="community"
+                  src="https://drive.google.com/uc?export=view&id=13tqwQNrZj1zSSgsgV7CkPw4V8ExUYSsZ"></a></li>
+         <li><a href="#"><img class="navIcon" alt="pfp"
+                  src="https://drive.google.com/uc?export=view&id=1M_fhWtxsb-r6cU62Q9hbAEKlUi5ps582"></a></li>
+         <!-- 
+            routine: https://drive.google.com/file/d/1ijoLHg6RhRJW7Fsg9bhjcZXsYbp3KpC7/view?usp=sharing
+            stats: https://drive.google.com/file/d/1B3vQhFjIAYucR_zGpyYoAVS8hqtNC_QY/view?usp=sharing
+            home: https://drive.google.com/file/d/1WbsskFebLbIfwsjy1ATKSQORZmKFNiRP/view?usp=sharing
+            comunity: https://drive.google.com/file/d/13tqwQNrZj1zSSgsgV7CkPw4V8ExUYSsZ/view?usp=sharing
+            pfp: https://drive.google.com/file/d/1M_fhWtxsb-r6cU62Q9hbAEKlUi5ps582/view?usp=sharing
+         -->
+      </ul>
+   </div>
+</body>
+
+</html>
